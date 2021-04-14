@@ -1,4 +1,7 @@
 package rentalbusiness.infrastructure.persistence;
 
-public class RentalStorage {
+import rentalbusiness.models.Rental;
+
+public interface RentalStorage {
+    void persistRental(Rental rental);
 }
